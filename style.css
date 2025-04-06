@@ -1,0 +1,45 @@
+.mainContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #344151;
+    gap: 10px;
+}
+.operation{
+    color: #0398d4;
+    font-size: medium;
+    /* font-size: 20px; */
+}
+.container{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    text-size-adjust: auto;
+    color: #344151;
+    border-radius: 2px;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 100px;
+    gap: 12px;
+}
+.b1{
+    
+    /* border-bottom-right-radius: 5px; */
+    border: 0px;
+    border-right: 1px solid #bfbfbf;
+    
+    padding-right: 5px;
+    
+}
+.counter{
+    font-weight: bold;
+}
+.b2{
+    border: 0px;
+    border-left: 1px solid #bfbfbf;
+    /* border: 2px,solid,#bfbfbf; */
+    padding-left: 5px;
+}
